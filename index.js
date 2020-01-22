@@ -37,4 +37,5 @@ function exerciseDog(dogName, dogBreed){
     let text=routine[i](dogName,dogBreed);
     b.push(text);
   }
+  return b;
 }
