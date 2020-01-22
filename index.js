@@ -9,12 +9,12 @@ function leashDog(dogName, dogBreed) {
   return str;
 }
 function walkToPark(dogName, dogBreed) {
-  let str=`walk to the park with ${dogName} the ${dogBreed}`;
+  let str=`Walk to the park with ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 function throwFirsbee(dogName, dogBreed) {
-  let str=`throw the firsbee for ${dogName} the ${dogBreed}`;
+  let str=`Throw the firsbee for ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
