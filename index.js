@@ -19,7 +19,7 @@ function throwFrisbee(dogName, dogBreed) {
   return str;
 }
 function walkHome(dogName, dogBreed) {
-  let str=`walk home with ${dogName} the ${dogBreed}`;
+  let str=`Walk home with ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
@@ -29,9 +29,9 @@ function unleashDog(dogName, dogBreed) {
   return str;
 }
 
+let routine =[wakeDog(),leashDog(), walkToPark(), throwFrisbee(), walkHome(), unleashDog()];
 
 function exerciseDog(dogName, dogBreed){
-  let routine =[wakeDog(),leashDog(), walkToPark(), throwFrisbee(), walkHome(), unleashDog()];
   let b=[];
   for(let i=0; i<routine.length;i++){
     let text=routine[key](dogName,dogBreed);
