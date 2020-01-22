@@ -35,6 +35,6 @@ function exerciseDog(dogName, dogBreed){
   let b=[];
   for(let i=0; i<routine.length;i++){
     let text=routine[key](dogName,dogBreed);
-    b.add
+    b.push(text);
   }
 }
